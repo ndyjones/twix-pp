@@ -1,0 +1,50 @@
+# .gitignore
+# Python bytecode files and cache
+__pycache__/
+*.py[cod]     # Matches .pyc, .pyo, and .pyd files
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env          # Environment variables file
+.venv         # Standard venv directory
+venv/         # Alternative venv directory
+ENV/          # Another possible venv name
+
+# IDE specific files
+.idea/        # PyCharm
+.vscode/      # Visual Studio Code
+*.swp         # Vim swap files
+*.swo
+*.swn
+.DS_Store     # MacOS system files
+
+# Project specific
+*.log         # Log files
+data/         # Data directory
+output/       # Output directory
+*.csv         # CSV files (usually large data files)
+*.parquet     # Parquet files (compressed data)
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb       # Optional: uncomment if you don't want to track notebooks
