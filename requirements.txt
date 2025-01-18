@@ -1,0 +1,31 @@
+# requirements.txt
+# Core Data Processing
+pandas>=2.0.0          # Data manipulation and analysis
+pyarrow>=14.0.1       # Required for parquet file support
+tqdm>=4.65.0          # Progress bars for long-running operations
+
+# Text Processing
+emoji>=2.8.0          # Emoji handling in text
+unicodedata2>=15.1.0  # Unicode normalization and handling
+
+# Development Tools
+python-dotenv>=1.0.0  # Environment variable management
+pytest>=7.4.0         # Testing framework
+black>=23.9.1         # Code formatting
+isort>=5.12.0         # Import sorting
+flake8>=6.1.0         # Code linting
+
+# Optional but recommended for development
+# mypy>=1.5.1         # Static type checking (uncomment if using type hints)
+# jupyter>=1.0.0      # For notebook development (uncomment if needed)
+# pre-commit>=3.4.0   # Git hooks for code quality (uncomment if needed)
+
+# Version Notes:
+# - Using >= to allow for patch updates
+# - Major version numbers specified for stability
+# - Test thoroughly when upgrading major versions
+
+# Installation:
+# 1. Basic installation: pip install -r requirements.txt
+# 2. Development installation: pip install -r requirements.txt[dev]
+# 3. With optional tools: pip install -r requirements.txt[all]
