@@ -52,3 +52,5 @@ archives/     # Add this for storing Twitter archives
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb       # Optional: uncomment if you don't want to track notebooks
+scripts/
+scripts/*
