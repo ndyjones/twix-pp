@@ -44,12 +44,11 @@ venv/*
 *.log         # Log files
 data/         # Data directory
 output/       # Output directory
+scripts/      # Personal scripts directory
+archives/     # Add this for storing Twitter archives
 *.csv         # CSV files (usually large data files)
 *.parquet     # Parquet files (compressed data)
 
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb       # Optional: uncomment if you don't want to track notebooks
-
- 
- 
