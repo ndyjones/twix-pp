@@ -28,17 +28,33 @@ df = preprocessor.process_archive()
 ## Project Structure
 
 ```
-twitter_analysis/
-├── preprocessing/
-│   ├── __init__.py
-│   ├── archive_processor.py
-│   └── text_cleaner.py
-├── utils/
-│   ├── __init__.py
-│   └── logging_config.py
-└── config/
+├── LICENSE
+├── README.md
+├── pyproject.toml
+├── requirements.txt
+├── setup.py
+├── tests
+│   ├── README.md
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── preprocessing
+│   │   ├── __init__.py
+│   │   ├── test_archive_processor.py
+│   │   └── test_text_cleaner.py
+│   └── utils
+└── twitter_analysis
     ├── __init__.py
-    └── settings.py
+    ├── config
+    │   ├── __init__.py
+    │   └── settings.py
+    ├── preprocessing
+    │   ├──  media_handler.py
+    │   ├── __init__.py
+    │   ├── archive_processor.py
+    │   └── text_cleaner.py
+    └── utils
+        ├── __init__.py
+        └── logging_config.py
 ```
 
 ## Contributing
